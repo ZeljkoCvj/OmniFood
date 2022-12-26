@@ -1,0 +1,272 @@
+.eatingWell{
+    #taxes{
+        font-size: 1.2rem;
+        line-height: 1.6;
+        text-align: center;
+        font-family: $font;
+        color: #333;
+        margin-top: 4rem;
+        @include sm{
+            margin: 2rem 2rem;
+            font-size: 0.9rem;
+        }
+    }
+   
+    .eatt{
+        padding: 6rem 8.2rem;
+        @include sm{
+            padding: 2rem 2rem;
+        }
+       
+    span{
+        font-size: 1.4rem;
+        font-weight: bolder;
+        color: #cf711f;
+        text-transform: uppercase;
+        margin-bottom: 0.4rem;
+        letter-spacing: 0.75px;
+        font-family: "Rubik", sans-serif;
+     
+        @include xl{
+            font-size: 1.1rem;
+        }
+    }
+    
+    h1{
+        font-size: 3rem;
+    line-height: 1.2;
+    @include xl{
+        font-size: 2rem;
+    }
+    font-weight: bold;
+  
+    color: #333;
+font-family: $font;    }
+}
+.eat{
+    @include sm{
+       grid-template-columns: 1fr;
+    }
+    display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   margin:0rem 15rem;
+   text-align: center;
+   justify-content: center;
+   justify-items: center;
+   @include xl{
+   margin: 0rem ;
+}
+   
+   .starter{
+    border: 2px solid #fdf2e9;
+    border-radius: 11px;
+    width: 85%;
+   
+        .a{
+        color: #cf711f;
+       margin-top: 2rem ;
+       @include xl{
+        font-size: 1rem;
+    }
+    font-weight: 600;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: 0.75;
+    margin-bottom: 2rem;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.b{
+    font-size: 3.2rem;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 1.6rem;
+    @include xl{
+        font-size: 2rem;
+    }
+}
+.c{
+    font-size: 1.2rem;
+    line-height: 1.4;
+    color: #6f6f6f;
+    @include xl{
+        font-size: 1rem;
+    }
+}
+.d{
+   text-align: left;
+   margin-left:7.6rem;
+   @include xl{
+    font-size: 1rem;
+}
+p{
+    @include xl{
+        font-size: 1.2rem;
+    }
+    font-size: 1.4rem;
+  color: #334;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-top: 2rem;
+ 
+}
+}
+button{
+    background-color: #e67e22;
+    color: #fff;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 1.4rem;
+    font-weight: bold;
+    padding: 1.3rem 1.8rem;
+    border-radius: 9px;
+    border: none;
+    cursor: pointer;
+    font-family: $font;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    @include xl{
+        padding: 0.9rem 1.8rem;
+    }
+    
+}
+}
+.complete{
+    
+    position: relative;
+    border: 2px solid #fdf2e9;
+    border-radius: 11px;
+    width: 85%;
+    background-color: #fdf2e9;
+    overflow: hidden;
+    #ooo{
+       
+        top:30px;
+    right: -13%;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    font-weight: bold;
+    
+    color: #333;
+    background-color: #ffd43b;
+    padding: 0.5rem 0.5rem;
+    transform: rotate(45deg);
+    position: absolute;
+    width: 40%;
+    
+
+    }
+   
+    .a{
+        @include xl{
+            font-size: 1rem;
+        }
+        color: #cf711f;
+        margin-top: 2rem ;
+    font-weight: bold;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: 0.75;
+    margin-bottom: 2rem;
+    font-weight: bold;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.b{
+    @include xl{
+        font-size: 2rem;
+    }
+    font-size: 3.2rem;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 1.6rem;
+}
+.c{
+    @include xl{
+        font-size: 1rem;
+    }
+    font-size: 1.2rem;
+    line-height: 1.4;
+    color: #6f6f6f;
+}
+.d{
+    @include xl{
+        font-size: 1rem;
+    }
+    display: grid;
+    text-align: left;
+   margin-left:7.6rem;
+    p{
+        font-size: 1.4rem;
+      color: #334;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      margin-top: 2rem;
+      @include xl{
+        font-size: 1.2rem;
+    }
+    }
+    }
+button{
+    background-color: #e67e22;
+    color: #fff;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 1.4rem;
+    font-weight: bold;
+    padding: 1.3rem 1.8rem;
+    border-radius: 9px;
+    border: none;
+    cursor: pointer;
+    font-family: $font;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    @include xl{
+        padding: 0.9rem 1.8rem;
+    }
+  
+}
+
+}
+
+    }
+    .nevercoock{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        max-width: 120rem;
+        padding: 8rem 9.2rem;
+        column-gap: 4.4rem;
+        row-gap: 9.6rem;
+        @include lg{
+            padding:5rem 5rem;
+            column-gap: 1rem;
+        }
+        @include sm{
+           grid-template-columns: 1fr;
+        }
+       
+        
+        .never{
+           
+            h2{
+                @include xl{
+                    font-size: 1.5rem;
+                }
+                font-size: 1.8rem;
+                 color: #334;
+                 font-weight: 700;
+                 margin-bottom: 1.6rem;
+                gap: 5rem;
+                font-family: $font;
+}
+p{
+    @include xl{
+        font-size: 1rem;
+    }
+    font-size: 1.3rem;
+    line-height: 1.5;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #333;
+}
+            }
+        }
+    }
+   
+

@@ -1,0 +1,163 @@
+.section2{
+    
+    .container{
+        .p2{
+           text-align: center;     
+           filter: brightness(0);
+            opacity: 50%;
+            font-family: $font;
+            font-size: 1.5em;
+            font-weight: bold;
+            margin-top: 2rem;
+            @include lg{
+                font-size: 1.2em;
+            }
+        
+        }
+        .logo{
+            
+            display: flex;
+           justify-content: space-around;
+           align-items: center;
+           @include xl{
+           
+            gap: 1em;
+        }
+           max-width: 76rem;
+           padding: 0 3.2rem;
+           margin: 1em 10rem;
+            img{
+                @include xl{
+                    width: 10em;
+                    
+                }
+                @include lg{
+                height: 1.4rem;
+            }
+
+            @include sm{
+               height: 0.5rem;
+            }
+            width: 12em;
+            height: 8%;
+            color: #333;
+            margin: 0px auto;
+            filter: brightness(0);
+            opacity: 50%;
+        }
+        }
+    }
+   
+}
+.meals{
+    @include xl{
+        font-size: 85%;
+    }
+   width: 100%;
+        margin-top: 6em;
+        .meal1{
+            margin-left: 11em;
+            @include lg{
+                margin-left: 5rem;
+                
+            }
+           
+            
+            
+            span{
+               
+                display: block;
+                font-size: 1rem;
+                font-weight: bold;
+                color: #cf711f;
+                text-transform: uppercase;
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                letter-spacing: 0.75px;
+
+            }
+            h2{
+               
+                @include xl{
+                    font-size: 2rem;
+                }
+                @include sm{
+                    font-size: 1rem;
+                        margin-right: 2rem;
+                }
+                font-size: 2.8rem;
+                 line-height: 1.2;
+                 filter: brightness(0);
+                 opacity: 90%;
+                 font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                 
+            }
+        }
+    .container-grid{
+        #imggg{
+        @include sm{
+            grid-row: 4;
+        }
+    }
+        @include sm{
+           grid-template-columns: 1fr;
+        }
+        @include lg{
+            margin: 2rem 4rem;
+            row-gap: 5em;
+            column-gap: 5rem;
+            
+            
+        }
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin-left: 13em;
+        margin-right: 10em;
+       row-gap: 5em;
+       align-items: center;
+        margin-top: 7rem;
+        .box{
+          
+           .a{
+            @include lg{
+               font-size: 3rem;
+                
+            }
+            font-size: 6.6rem;
+           font-weight: 600;
+           color: #ddd;
+           margin-bottom: 1.2rem;
+           font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;;
+           }
+           h3{
+            @include lg{
+               font-size: 1.5rem;
+               @include sm{
+                font-size: 1.2rem;
+            }
+            }
+            font-size: 2.3rem;
+    line-height: 1.2;
+    margin-bottom: 3.2rem;
+           }
+           .never{
+            font-size: 1.2em;
+            line-height: 1.8;
+            font-weight: bold;
+            color: #333;
+            font-family: $font;
+           }
+        }
+        .imgg{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            align-content: center;
+
+            
+            img{
+                width: 30%;
+            height: 40%;
+            }
+        }
+    } 
+}

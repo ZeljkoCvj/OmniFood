@@ -1,0 +1,182 @@
+.input{
+    padding: 4.8rem 0 12.8rem;
+    .continput{
+        max-width: 70rem;
+        padding: 0 3.2rem;
+        margin: 0 auto;
+        .maininput{
+            @include sm{
+                grid-template-columns: 1fr ;
+            }
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            
+            box-shadow: 0 2.4rem 4.8rem rgb(0 0 0 / 15%);
+            border-radius: 11px;
+            background-image: linear-gradient(to right bottom, #eb984e, #e67e22);
+            overflow: hidden;
+            .inputb{
+                 @include sm{
+                    height: 18rem;
+    grid-row: 1;
+                 }
+                background-image: linear-gradient( to right bottom, rgba(235, 151, 78, 0.35), rgba(230, 125, 34, 0.35) ), url(../jpg/eating.jpg);
+                background-size: cover;
+                background-position: center;
+            }
+        }
+    }
+    .inputa{
+        padding: 2.8rem 6.4rem 6.4rem 3.4rem;
+        padding-top: 2rem;
+    padding-bottom: 2rem;
+        .h22{
+            @include xl{
+                font-size: 2rem;
+            }
+            font-size: 2.4rem;
+            line-height: 1.2;
+            color: #45260a; 
+            font-family: $font;
+            font-weight: bold;
+    
+        }
+        .ppp{
+            @include lg{
+               margin-top: 1.5rem;
+               margin-bottom: 1.5rem;
+            }
+            @include xl{
+                font-size: 1.2rem;
+            }
+            margin-top: 3rem;
+            font-size: 1.5rem;
+    line-height: 1.8;
+    margin-bottom: 4.8rem;
+    color: #45260a; 
+    font-family: $font;
+        }
+        .form{
+            @include lg{
+                grid-template-columns: 1fr;
+            }
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            column-gap: 3.2rem;
+    row-gap: 2.4rem;
+    .lname{
+     label{
+        @include xl{
+            font-size: 1rem;
+        }
+        display: block;
+        font-size: 1.3rem;
+    font-weight: 500;
+    margin-bottom: 1.1rem;
+    font-family: $font;
+    font-weight: bold;
+     }
+     #namee{
+        @include xl{
+            font-size: 1.2rem;
+        }
+        width: 100%;
+    padding: 0.5rem;
+    font-size: 1.6rem;
+    font-family: inherit;
+    color: inherit;
+    border: none;
+    background-color: #fdf2e9;
+    border-radius: 9px;
+    box-shadow: 0 1px 2px rgb(0 0 0 / 10%);
+}
+    
+     
+    }
+
+    .lemail{
+        
+        label{
+            @include xl{
+                font-size: 1rem;
+            }
+            display: block;
+        font-size: 1.3rem;
+    font-weight: 500;
+    margin-bottom: 1.1rem;
+    font-family: $font;
+    font-weight: bold;
+    }
+    #email{
+        @include xl{
+            font-size: 1.2rem;
+        }
+        width: 100%;
+    padding: 0.5rem;
+    font-size: 1.6rem;
+    font-family: inherit;
+    color: inherit;
+    border: none;
+    background-color: #fdf2e9;
+    border-radius: 9px;
+    box-shadow: 0 1px 2px rgb(0 0 0 / 10%);
+        }
+        
+        
+           
+        }
+
+
+        .lchose{
+            label{
+                @include xl{
+                    font-size: 1rem;
+                }
+                display: block;
+                font-size: 1.3rem;
+            font-weight: 500;
+            margin-bottom: 1.1rem;
+            font-family: $font;
+            font-weight: bold;
+            }
+            #chosee{
+                @include xl{
+                    font-size: 1.2rem;
+                    padding: 0.5rem;
+                }
+                width: 106%;
+                padding: 0.5rem;
+                font-size: 1.6rem;
+    font-family: inherit;
+    color: inherit;
+    border: none;
+    background-color: #fdf2e9;
+    border-radius: 9px;
+    box-shadow: 0 1px 2px rgb(0 0 0 / 10%);
+            }
+        }
+        
+    }
+    .btnn{
+        @include xl{
+            font-size: 1rem;
+        }
+width: 109%;
+    background-color: #45260a;
+color: #fdf2e9;
+align-self: end;
+padding: 0.5rem;
+display: inline-block;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: 0.6rem;
+    border-radius: 9px;
+    border: none;
+    cursor: pointer;
+    font-family: inherit;
+    /* transition: background-color 0.3s; */
+    transition: all 0.3s;
+    }
+    }
+}
